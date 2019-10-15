@@ -24,7 +24,7 @@ https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
 **Commands:**
 
-PsTools powershell:
+PsTools\psexec powershell:
 
 https://4sysops.com/archives/psexec-vs-the-powershell-remoting-cmdlets-invoke-command-and-enter-pssession/
 
