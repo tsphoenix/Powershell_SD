@@ -1,1 +1,1 @@
-Get-Process | Where-Object {$_.MainWindowTitle} | stop-process
+Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
