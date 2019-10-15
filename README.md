@@ -22,7 +22,15 @@ https://ss64.com/ps/syntax-elevate.html
 Reputable resources:
 https://ss64.com/ps/powershell.html
 
+https://ss64.com/ps/stop-process.html
+
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6
+
+Stopping processes:
+
+https://stackoverflow.com/questions/47889406/script-to-end-kill-piled-up-apps-background-processes-in-windows-taskmanager-of
+
+
 
 ```powershell
 #
@@ -35,6 +43,12 @@ note do not use .exe extension
 iexplore.exe#>
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
+get-process iexplore | stop-process
+
+# Task Manager(Fewer details - Apps) list
+# Task Manager(More details) lists three groups Apps, Background processes, Windows processes
+# Get Task Manager(Fewer details - Apps) list
+Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description
 ```
 
 
