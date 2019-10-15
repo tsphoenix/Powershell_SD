@@ -1,4 +1,4 @@
-Replaces RMB Taskbar > Task Manager > (Fewer details - Apps) > (LMB > Delete)
+Replaces RMB Taskbar > Task Manager > Fewer details > (LMB > Delete)
 
 Task Manager(>Fewer details - Apps) list
 
