@@ -16,7 +16,7 @@ Snippets:
 Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description
 Get-Process |where {$_.mainWindowTItle} |format-table id,name,mainwindowtitle –AutoSize
 Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
-Get-Service | Where-Object Status -eq "Running").Count
+Get-Service | (Where-Object Status -eq "Running").Count
 ```
 
 Resources:
