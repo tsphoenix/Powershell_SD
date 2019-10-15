@@ -18,6 +18,10 @@ https://ss64.com/ps/powershell.html
 
 **Commands:**
 
+ps tools powershell:
+
+https://4sysops.com/archives/psexec-vs-the-powershell-remoting-cmdlets-invoke-command-and-enter-pssession/
+
 Remove-Item:
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
