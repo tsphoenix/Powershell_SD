@@ -21,6 +21,14 @@ Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
 
 Resources:
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6&viewFallbackFrom=powershell-642
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6&viewFallbackFrom=powershell-633
+
+https://ss64.com/ps/stop-process.html
+
+https://stackoverflow.com/questions/47889406/script-to-end-kill-piled-up-apps-background-processes-in-windows-taskmanager-of
+
 https://blog.osull.com/2019/08/19/get-task-manager-list-of-apps-with-powershell/
 
 https://devblogs.microsoft.com/powershell/get-windowtitle-ps1/
