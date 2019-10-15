@@ -12,13 +12,19 @@ https://ss64.com/ps/
 
 https://ss64.com/ps/powershell.html
 
+PsTools
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
+
 # Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
 
 **WIP**
 
 **Commands:**
 
-ps tools powershell:
+PsTools powershell:
 
 https://4sysops.com/archives/psexec-vs-the-powershell-remoting-cmdlets-invoke-command-and-enter-pssession/
 
