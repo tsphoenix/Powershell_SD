@@ -28,12 +28,12 @@ https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfol
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
-get-process
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6
-
 Elevated ps
 
 https://ss64.com/ps/syntax-elevate.html
+
+Print screen
+https://stackoverflow.com/questions/2969321/how-can-i-do-a-screen-capture-in-windows-powershell
 
 snippets:
 ```powershell
