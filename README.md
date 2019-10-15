@@ -12,6 +12,10 @@ https://ss64.com/ps/
 
 https://ss64.com/ps/powershell.html
 
+https://ss64.com/ps/syntax-env.html
+
+https://ss64.com/ps/syntax-elevate.html
+
 PsTools
 
 https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
@@ -37,10 +41,6 @@ https://www.petri.com/delete-folder-file-from-command-line-powershell
 https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfolders-without-deleting-the-root
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
-
-Elevated ps:
-
-https://ss64.com/ps/syntax-elevate.html
 
 Print screen:
 
