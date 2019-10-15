@@ -15,6 +15,9 @@ https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfol
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
+get-process
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6
+
 Elevated ps
 
 https://ss64.com/ps/syntax-elevate.html
@@ -48,7 +51,8 @@ get-process iexplore | stop-process
 # Task Manager(Fewer details - Apps) list
 # Task Manager(More details) lists three groups Apps, Background processes, Windows processes
 # Get Task Manager(Fewer details - Apps) list
-Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description
+Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description | stop-process
+Get-Process |where {$_.mainWindowTItle} |format-table id,name,mainwindowtitle –AutoSize
 ```
 
 
