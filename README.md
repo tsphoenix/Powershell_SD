@@ -1,4 +1,13 @@
 # Powershell
+
+**Documentation**:
+
+https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6
+
+https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7
+
+https://ss64.com/ps/
+
 # Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
 
 **WIP**
