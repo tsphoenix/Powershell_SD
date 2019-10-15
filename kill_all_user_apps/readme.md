@@ -1,6 +1,6 @@
 Replaces RMB Taskbar > Task Manager > Fewer details > (LMB > Delete)
 
-Task Manager(>Fewer details - Apps) list
+Task Manager (>Fewer details - Apps) list
 
 In Windows 10 Task Manager (>More details) lists three groups Apps, Background processes, Windows processes
 
