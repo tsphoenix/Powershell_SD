@@ -19,13 +19,15 @@ Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
 (Get-Service | Where-Object Status -eq "Running").Count
 ```
 
-Resources:
+Documentation:
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6&viewFallbackFrom=powershell-642
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6&viewFallbackFrom=powershell-633
 
 https://ss64.com/ps/stop-process.html
+
+Resources:
 
 https://stackoverflow.com/questions/47889406/script-to-end-kill-piled-up-apps-background-processes-in-windows-taskmanager-of
 
