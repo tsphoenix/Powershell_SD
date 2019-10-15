@@ -10,6 +10,8 @@ https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7
 
 https://ss64.com/ps/
 
+https://ss64.com/ps/powershell.html
+
 # Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
 
 **WIP**
@@ -33,19 +35,7 @@ Elevated ps
 
 https://ss64.com/ps/syntax-elevate.html
 
-Reputable resources:
-https://ss64.com/ps/powershell.html
-
-https://ss64.com/ps/stop-process.html
-
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6
-
-Stopping processes:
-
-https://stackoverflow.com/questions/47889406/script-to-end-kill-piled-up-apps-background-processes-in-windows-taskmanager-of
-
-
-
+snippets:
 ```powershell
 #
 <#
