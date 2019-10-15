@@ -18,7 +18,7 @@ https://ss64.com/ps/powershell.html
 
 **Commands:**
 
-Remove-Item
+Remove-Item:
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
@@ -28,11 +28,12 @@ https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfol
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
-Elevated ps
+Elevated ps:
 
 https://ss64.com/ps/syntax-elevate.html
 
-Print screen
+Print screen:
+
 https://stackoverflow.com/questions/2969321/how-can-i-do-a-screen-capture-in-windows-powershell
 
 snippets:
