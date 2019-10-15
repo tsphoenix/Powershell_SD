@@ -21,6 +21,8 @@ Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
 
 Documentation:
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6
+
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6&viewFallbackFrom=powershell-633
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6&viewFallbackFrom=powershell-642
