@@ -15,9 +15,14 @@ https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfol
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
-elevated ps
-https://ss64.com/ps/powershell.html
+Elevated ps
+
 https://ss64.com/ps/syntax-elevate.html
+
+Reputable resources:
+https://ss64.com/ps/powershell.html
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process?view=powershell-6
 
 ```powershell
 #
