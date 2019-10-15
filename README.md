@@ -20,8 +20,8 @@ https://ss64.com/ps/powershell.html
 https://ss64.com/ps/syntax-elevate.html
 
 ```powershell
-Stop-Process -Name "ProcessName" -Force
-iexplore.exe
+<#Stop-Process -Name "ProcessName" -Force
+iexplore.exe#>
 Stop-Process -Name "iexplore.exe" 
 Stop-Process -Name "iexplore.exe" -Force
 ```
