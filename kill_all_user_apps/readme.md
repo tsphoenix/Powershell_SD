@@ -6,5 +6,11 @@ Task Manager(More details) lists three groups Apps, Background processes, Window
 
 # Get Task Manager(Fewer details - Apps) list
 
-Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description | stop-process
-Get-Process |where {$_.mainWindowTItle} |format-table id,name,mainwindowtitle –AutoSize
+Looking at 
+```powershell
+Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description
+Get-Process | where {$_.mainWindowTItle} | format-table id,name,mainwindowtitle –AutoSize
+Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description | Stop-Process
+Get-Process | Where {$_.mainWindowTItle} | Select-Object Description | Stop-Process
+```
+
