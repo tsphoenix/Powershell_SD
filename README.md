@@ -7,7 +7,7 @@
 
 Remove-Item
 
-https://www.tutorialspoint.com/powershell/powershell_files_delete_files.htm
+http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
 https://www.petri.com/delete-folder-file-from-command-line-powershell
 
@@ -26,12 +26,12 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.manageme
 
 ```powershell
 #
-#
-#
-#
+<#
+
+#>
 
 <#Stop-Process -Name "ProcessName" -Force
-#note do not use .exe extension
+note do not use .exe extension
 iexplore.exe#>
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
