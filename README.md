@@ -22,7 +22,7 @@ https://docs.microsoft.com/en-us/sysinternals/downloads/pstools
 
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
-# Cleaning Windows User profile - Tedious tasks that can be scripted or even automated with GPO
+# Cleaning User profile and scripting tedious tasks
 
 **WIP**
 
