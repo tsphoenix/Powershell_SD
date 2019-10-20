@@ -1,3 +1,3 @@
 @ECHO OFF
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process PowerShell -ArgumentList '-ExecutionPolicy Unrestricted','-File wipe_ivanti_appsensevirtual_prv.ps1' -Verb RunAs"
+PowerShell.exe -NoProfile -Command "& {Start-Process PowerShell.exe -Credential $Creds -ArgumentList '-ExecutionPolicy Bypass -File wipe_ivanti_appsensevirtual_prv.ps1'}"
 PAUSE
