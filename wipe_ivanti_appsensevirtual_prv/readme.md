@@ -4,6 +4,8 @@
 
 **Killing ie and office at the start of ps1 execution - can remove that part if necessary, aletnatively can make make it user privilage bat part of ps1 user level script**
 
+**TODO will move process list to $array and use for ForEach-Object**
+
 
 Documentation:
 
@@ -19,6 +21,7 @@ https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfol
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
+https://stackoverflow.com/questions/50615577/powershell-close-multiple-windows-end-processes-based-on-name
 
 launcher snippets:
 
