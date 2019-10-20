@@ -2,6 +2,8 @@ Finished. It Works.
 
 Start with launcher, Provide custom credentials
 
+Killing ie and office at the start of ps1 execution - can remove that part if necessary
+
 
 Documentation:
 
