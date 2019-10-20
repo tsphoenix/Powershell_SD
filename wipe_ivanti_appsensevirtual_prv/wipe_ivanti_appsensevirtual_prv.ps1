@@ -4,4 +4,4 @@ $processes = "iexplore","winword","excel","powerpnt","msaccess","outlook","visio
 $processes | ForEach-Object { Get-Process -Name $_ | Stop-Process -Force }
 
 $path = "C:\appsensevirtual\"
-Get-ChildItem -Path $path -Recurse| ForEach-Object { Remove-item -Recurse -path $_.FullName }
+Get-ChildItem -Path $path -Recurse | ForEach-Object { Remove-item -Recurse -path $_.FullName }
