@@ -1,7 +1,7 @@
 #IVANTI APPSENSEVIRTUAL CLEANER @tsphoenix
 
-$processes = "iexplore","winword","excel","powerpnt","msaccess","outlook","visio","winproj","lync","mspub","onenote"
-$processes | ForEach-Object { Get-Process -Name $_ | Stop-Process -Force }
+$Processes = "iexplore","WINWORD","EXCEL","POWERPNT","MSACCESS","OUTLOOK","VISIO","WINPROJ","lync","MSPUB","ONENOTE","groove","msosync"
+$Processes | ForEach-Object { Get-Process -Name $_ | Stop-Process -Force }
 
-$path = "C:\appsensevirtual\"
-Get-ChildItem -Path $path -Recurse | ForEach-Object { Remove-item -Recurse -path $_.FullName }
+$Paths = "C:\appsensevirtual\"
+Get-ChildItem -Path $Paths -Recurse | ForEach-Object { Remove-Item -Recurse -Path $_.FullName }
