@@ -1,3 +1,5 @@
+#IVANTI APPSENSEVIRTUAL CLEANER @tsphoenix
+
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
 Stop-Process -Name "winword" 
