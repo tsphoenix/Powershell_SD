@@ -1,6 +1,6 @@
-WIP, not finished
+Finished. It Works.
+Start with launcher, Provide custom credentials
 
--File relatvive path missing
 
 Documentation:
 
