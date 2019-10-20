@@ -1,11 +1,8 @@
-**Finished. It Works.**
+**Finished. Tested.**
 
 **Start with launcher, Provide custom credentials**
 
-**Killing ie and office at the start of ps1 execution - can remove that part if necessary, aletnatively can make make it user privilage bat part of ps1 user level script**
-
-**TODO will move process list to $array and use for ForEach-Object**
-
+**Killing IE and MSO (list in the array) at the start of ps1 execution - can remove that part if necessary, aletnatively can make make it user privilage bat part of ps1 user level script**
 
 Documentation:
 
