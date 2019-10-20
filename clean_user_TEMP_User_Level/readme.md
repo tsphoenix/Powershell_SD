@@ -11,4 +11,4 @@ Get-ChildItem -Path $path -Recurse| Foreach-object {Remove-item -Recurse -path $
 $x = "Path"
 (get-item env:$x).Value
 #
-```powershell
+```
