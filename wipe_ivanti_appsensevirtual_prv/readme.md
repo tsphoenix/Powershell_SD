@@ -2,7 +2,7 @@
 
 **Start with launcher, Provide custom credentials**
 
-**Killing ie and office at the start of ps1 execution - can remove that part if necessary**
+**Killing ie and office at the start of ps1 execution - can remove that part if necessary, aletnatively can make make it user privilage bat part of ps1 user level script**
 
 
 Documentation:
