@@ -3,6 +3,7 @@
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
 
+#Pseudocode
 $Paths = PLACEHOLDER
 
 Get-ChildItem -Path $Paths -Recurse | ForEach-Object { Remove-Item -Recurse -Path $_.FullName }
