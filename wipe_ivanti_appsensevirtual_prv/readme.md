@@ -1,6 +1,6 @@
 **Finished, Tested.**
 
-**Start with launcher, Provide custom credentials**
+**Start with bat launcher, Provide custom credentials**
 
 **Killing IE and MSO (list in the array) at the start of ps1 execution - can remove that part if necessary, aletnatively can make make it user privilage bat part of ps1 user level script**
 
