@@ -4,7 +4,7 @@ Stop-Process -Name "iexplore"
 Stop-Process -Name "iexplore" -Force
 
 #Pseudocode
-$Paths = "path1", "path2", "path3"
+$Paths = "path1", "path2", (get-item env:"TEMP").Value
 
 ForEach($Path in $Paths) {
 Get-ChildItem -Path $Paths -Recurse | ForEach-Object { Remove-Item -Recurse -Path $_.FullName }
