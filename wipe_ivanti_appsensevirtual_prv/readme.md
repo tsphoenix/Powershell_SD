@@ -1,4 +1,4 @@
-**Finished. Tested.**
+**Finished, Tested.**
 
 **Start with launcher, Provide custom credentials**
 
