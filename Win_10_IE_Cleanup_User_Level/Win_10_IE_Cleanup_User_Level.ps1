@@ -3,7 +3,7 @@
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
 
-<# Pseudocode
+<# Pseudocode #>
 $InetCookies = 
 $InetCache =
 $Temps = (get-item env:"TEMP").Value
