@@ -12,15 +12,6 @@ kill_all_user_apps.ps1
 ```powershell
 Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
 ```
-
-Snippets:
-```powershell
-Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description
-Get-Process |where {$_.mainWindowTItle} |format-table id,name,mainwindowtitle –AutoSize
-Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
-(Get-Service | Where-Object Status -eq "Running").Count
-```
-
 Documentation:
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-6
@@ -40,3 +31,12 @@ https://blog.osull.com/2019/08/19/get-task-manager-list-of-apps-with-powershell/
 https://devblogs.microsoft.com/powershell/get-windowtitle-ps1/
 
 https://stackoverflow.com/questions/49622153/how-to-display-the-count-of-running-processes-through-powershell-script
+
+
+Snippets:
+```powershell
+Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description
+Get-Process |where {$_.mainWindowTItle} |format-table id,name,mainwindowtitle –AutoSize
+Get-Process | Where-Object {$_.MainWindowTitle} | Stop-Process
+(Get-Service | Where-Object Status -eq "Running").Count
+```
