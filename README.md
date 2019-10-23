@@ -26,7 +26,7 @@ https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
 **Principle of Least Privilege (POLP)**
 
-**Scripts requirig elevated privileges have _prv suffix.**
+**Scripts requiring elevated privileges have _prv suffix.**
 
 **WIP**
 
