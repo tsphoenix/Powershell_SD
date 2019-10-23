@@ -24,6 +24,10 @@ https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
 # Cleaning User profile and scripting tedious tasks
 
+**Scripts requirig elevated privileges have _prv suffix.**
+
+**Principle of Least Privilege (POLP)**
+
 **WIP**
 
 **Commands:**
