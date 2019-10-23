@@ -28,8 +28,6 @@ https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
 **Scripts requiring elevated privileges have _prv suffix.**
 
-**WIP**
-
 **Commands:**
 
 PsTools\psexec powershell:
