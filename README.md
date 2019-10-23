@@ -50,25 +50,20 @@ Print screen:
 
 https://stackoverflow.com/questions/2969321/how-can-i-do-a-screen-capture-in-windows-powershell
 
-snippets:
+old snippets:
 ```powershell
 #
 <#
-
 #>
-
 <#Stop-Process -Name "ProcessName" -Force
 note do not use .exe extension
 iexplore.exe#>
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
 get-process iexplore | stop-process
-
 # Task Manager(Fewer details - Apps) list
 # Task Manager(More details) lists three groups Apps, Background processes, Windows processes
 # Get Task Manager(Fewer details - Apps) list
 Get-Process | Where-Object {$_.MainWindowTitle} | Select-Object Description | stop-process
 Get-Process |where {$_.mainWindowTItle} |format-table id,name,mainwindowtitle –AutoSize
 ```
-
-
