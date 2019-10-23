@@ -20,7 +20,7 @@ http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
 https://stackoverflow.com/questions/50615577/powershell-close-multiple-windows-end-processes-based-on-name
 
-launcher snippets:
+old launcher snippets:
 
 ```batch
 #
