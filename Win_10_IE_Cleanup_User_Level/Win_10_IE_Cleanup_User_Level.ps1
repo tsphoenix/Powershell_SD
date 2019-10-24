@@ -4,10 +4,10 @@ Stop-Process -Name "iexplore"
 Stop-Process -Name "iexplore" -Force
 
 <# Pseudocode #>
-$InetCookies = 
-$InetCache =
+$IeCookies = 
+$IeCache =
 $Temps = (get-item env:"TEMP").Value
-$Paths = $InetCookies, $InetCache, $Temp
+$Paths = $IeCookies, $IeCache, $Temp
 
 <#ForEach($Path in $Paths)#>
 Get-ChildItem -Path $Paths -Recurse | ForEach-Object { Remove-Item -Recurse -Path $_.FullName }
