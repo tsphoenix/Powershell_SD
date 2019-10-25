@@ -1,2 +1,2 @@
 $path = (get-item env:"TEMP").Value
-Get-ChildItem -Path $path -Recurse| Foreach-object {Remove-item -Recurse -path $_.FullName }
+Get-ChildItem -Path $Paths -Recurse -Force | ForEach-Object { Remove-Item -Recurse -Force -LiteralPath $_.FullName }
