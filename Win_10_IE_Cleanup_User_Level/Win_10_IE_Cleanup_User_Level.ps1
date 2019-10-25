@@ -3,11 +3,9 @@
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
 
-<# Pseudocode #>
 $IeCookies = $env:USERPROFILE + "\AppData\Local\Microsoft\Windows\INetCookies\"
 $IeCache = $env:USERPROFILE + "\AppData\Local\Microsoft\Windows\INetCache\"
 $Temps = (get-item env:"TEMP").Value
 $Paths = $IeCookies, $IeCache, $Temp
 
-<#ForEach($Path in $Paths)#>
-Get-ChildItem -Path $Paths -Recurse | ForEach-Object { Remove-Item -Recurse -Path $_.FullName }
+Get-ChildItem -Path $Paths -Recurse -Force | ForEach-Object { Remove-Item -Recurse -Force -LiteralPath $_.FullName }
