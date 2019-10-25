@@ -4,8 +4,8 @@ Stop-Process -Name "iexplore"
 Stop-Process -Name "iexplore" -Force
 
 <# Pseudocode #>
-$IeCookies = 
-$IeCache =
+$IeCookies = $env:USERPROFILE + "\AppData\Local\Microsoft\Windows\INetCookies\"
+$IeCache = $env:USERPROFILE + "\AppData\Local\Microsoft\Windows\INetCache\"
 $Temps = (get-item env:"TEMP").Value
 $Paths = $IeCookies, $IeCache, $Temp
 
