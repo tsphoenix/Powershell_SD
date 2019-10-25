@@ -50,6 +50,10 @@ Get-ChildItem
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem
 
+Write-Host
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host
+
 Print screen:
 
 https://stackoverflow.com/questions/2969321/how-can-i-do-a-screen-capture-in-windows-powershell
