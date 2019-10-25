@@ -36,6 +36,8 @@ https://4sysops.com/archives/psexec-vs-the-powershell-remoting-cmdlets-invoke-co
 
 Remove-Item:
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item?view=powershell-6
+
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
 
 https://www.petri.com/delete-folder-file-from-command-line-powershell
@@ -43,6 +45,10 @@ https://www.petri.com/delete-folder-file-from-command-line-powershell
 https://stackoverflow.com/questions/42111297/powershell-command-to-delete-subfolders-without-deleting-the-root
 
 http://www.theservergeeks.com/how-to-clear-temp-files-using-powershell/
+
+Get-ChildItem
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem
 
 Print screen:
 
