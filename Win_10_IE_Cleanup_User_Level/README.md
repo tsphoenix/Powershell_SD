@@ -2,7 +2,7 @@
 
 bat launcher finished
 
-ps1 broken code!
+**ps1 broken code!**
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-6
 
