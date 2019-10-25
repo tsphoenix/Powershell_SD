@@ -17,3 +17,5 @@ Resources:
 https://stackoverflow.com/questions/10185114/create-array-of-paths-with-spaces-in-powershell
 
 https://stackoverflow.com/questions/53193108/can-i-create-an-array-of-functions-in-powershell
+
+https://community.spiceworks.com/scripts/show/4130-delete-temp-files-for-current-user
