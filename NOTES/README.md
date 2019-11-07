@@ -58,11 +58,21 @@ https://stackoverflow.com/questions/26719206/how-can-i-create-a-registry-value-a
 
 https://www.jonathanmedd.net/2014/02/testing-for-the-presence-of-a-registry-key-and-value.html
 
+Logging in powershell:
+
+Set-Content -path  "$env:temp\psr_$($env:computername)_$($env:username)_$(get-date -f "yyyy-MM-dd_HH-mm-ss").txt"  -Value "test content - could have come in from a pipeline instead of a parameter"
+
+https://soykablog.wordpress.com/2012/10/20/create-a-file-name-that-contains-current-date-time-computer-and-user-names-in-powershell/
+
+https://docs.microsoft.com/en-us/powershell/module/ipamserver/get-ipamipaddressauditevent?view=win10-ps
+
 Registry:
 
 https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-value-types
 
 https://www.lifewire.com/hkey-users-2625903
+
+
 
 Azure SSPR:
 
@@ -70,13 +80,17 @@ https://docs.microsoft.com/pl-pl/azure/active-directory/authentication/howto-ssp
 
 https://www.itninja.com/blog/view/how-to-make-changes-to-the-default-users-hive-as-a-post-taks
 
+
+
 CMD in PowerShell:
 
 https://stackoverflow.com/questions/24940243/running-cmd-command-in-powershell
 
+
 Internet Explorer 11 @ Windows 10 x64 User Agent string:
 
 Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
 
 CMD/BAT:
 
