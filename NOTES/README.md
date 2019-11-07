@@ -60,11 +60,21 @@ https://www.jonathanmedd.net/2014/02/testing-for-the-presence-of-a-registry-key-
 
 Logging in powershell:
 
-Set-Content -path  "$env:temp\psr_$($env:computername)_$($env:username)_$(get-date -f "yyyy-MM-dd_HH-mm-ss").txt"  -Value "test content - could have come in from a pipeline instead of a parameter"
+**Write-Host $($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")**
 
 https://soykablog.wordpress.com/2012/10/20/create-a-file-name-that-contains-current-date-time-computer-and-user-names-in-powershell/
 
 https://docs.microsoft.com/en-us/powershell/module/ipamserver/get-ipamipaddressauditevent?view=win10-ps
+
+Uptime lunacy check in powershell:
+
+https://devblogs.microsoft.com/scripting/use-powershell-to-search-ad-ds-and-produce-an-uptime-report/
+
+https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-adcomputer?view=winserver2012-ps
+
+https://sid-500.com/2018/09/09/powershell-showing-the-uptime-of-all-windows-servers/
+
+...
 
 Registry:
 
@@ -102,6 +112,6 @@ https://ss64.com/nt/goto.html
 
 Logging Login/Logoff/Execution 
 
-echo %username% %computername% %date% %time% >> \\file.txt
+**echo %username% %computername% %date% %time% >> \\file.txt**
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
