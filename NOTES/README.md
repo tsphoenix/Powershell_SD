@@ -20,6 +20,8 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.manageme
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
+
 string manipulation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
