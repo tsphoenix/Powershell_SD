@@ -89,6 +89,7 @@ goto
 https://ss64.com/nt/goto.html
 
 Logging Login/Logoff/Execution 
+
 echo %username% %computername% %date% %time% >> \\file.txt
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
