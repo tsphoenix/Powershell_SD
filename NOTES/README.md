@@ -20,6 +20,8 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.manageme
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/out-file?view=powershell-6
+
 string manipulation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
@@ -61,6 +63,7 @@ https://www.jonathanmedd.net/2014/02/testing-for-the-presence-of-a-registry-key-
 Logging in powershell:
 
 **Write-Host $($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")**
+**("$($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")") >> D:\test.txt**
 
 https://soykablog.wordpress.com/2012/10/20/create-a-file-name-that-contains-current-date-time-computer-and-user-names-in-powershell/
 
