@@ -1,3 +1,9 @@
+CheatSheets:
+
+https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-cheatsheet.pdf
+
+https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pd
+
 Documentation:
 
 New-Item
@@ -35,6 +41,7 @@ https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
 
 https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-powershell/
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scopes?view=powershell-6
 
 Operators in PowerShell:
 
@@ -60,7 +67,7 @@ Value and Variable Conversion in PowerShell:
 
 https://stackoverflow.com/questions/27484682/safely-converting-string-to-bool-in-powershell
 
-Conditional statements If{}ElseIf{}Else{} in PowerShell
+Conditional statements If(){}ElseIf(){}Else{} in PowerShell
 
 https://ss64.com/ps/if.html
 
