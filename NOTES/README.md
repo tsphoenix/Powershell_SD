@@ -125,3 +125,16 @@ Logging Login/Logoff/Execution
 **echo %username% %computername% %date% %time% >> \\...\file.txt**
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
+
+Append data permission:
+
+https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-in-windows-for-logging-purposes
+
+https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bdc92490/create-folder-append-dat
+
+NTFS vs Share Permissions refresher:
+
+https://www.techrepublic.com/article/learn-the-basic-differences-between-share-and-ntfs-permissions/
+
+https://blog.netwrix.com/2018/05/03/differences-between-share-and-ntfs-permissions/
+
