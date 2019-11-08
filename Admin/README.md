@@ -18,11 +18,15 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-uptime?view=powershell-6
+
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
 
 https://devblogs.microsoft.com/scripting/update-or-add-registry-key-value-with-powershell/
 
 https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
+
+https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-powershell/
 
 String manipulation in PowerShell:
 
@@ -76,6 +80,8 @@ Logging in PowerShell:
 
 .\..
 
+[string]((get-date) - (gcim Win32_OperatingSystem).LastBootUpTime)
+
 https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
@@ -93,6 +99,10 @@ https://www.reddit.com/r/PowerShell/comments/9enay3/delete_user_profiles_remotel
 https://www.reddit.com/r/PowerShell/comments/b8r5iw/script_to_delete_user_profiles_remotely_against_a/
 
 Uptime lunacy check in PowerShell:
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-uptime?view=powershell-6
+
+https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-powershell/
 
 https://devblogs.microsoft.com/scripting/use-powershell-to-search-ad-ds-and-produce-an-uptime-report/
 
@@ -137,6 +147,10 @@ https://ss64.com/nt/goto.html
 Logging Login/Logoff/Execution 
 
 **echo %username% %computername% %date% %time% >> \\...\file.txt**
+
+wmic path Win32_OperatingSystem get LastBootUpTime
+
+systeminfo | find "System Boot Time"
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
 
