@@ -128,10 +128,14 @@ Logging in PowerShell:
 
 **("$($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")") >> D:\test.txt**
 
-.\..
+".\.."
+
 (get-date)
+
 (gcim Win32_OperatingSystem).LastBootUpTime)
+
 a - b
+
 [string]()
 
 https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
