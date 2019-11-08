@@ -28,6 +28,8 @@ https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-stri
 
 https://devblogs.microsoft.com/scripting/update-or-add-registry-key-value-with-powershell/
 
+https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
+
 String manipulation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
@@ -79,6 +81,8 @@ Logging in PowerShell:
 **("$($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")") >> D:\test.txt**
 
 .\..
+
+https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
 
