@@ -22,6 +22,8 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/abo
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/out-file?view=powershell-6
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
+
 string manipulation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
@@ -63,7 +65,12 @@ https://www.jonathanmedd.net/2014/02/testing-for-the-presence-of-a-registry-key-
 Logging in powershell:
 
 **Write-Host $($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")**
+
 **("$($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")") >> D:\test.txt**
+
+.\..
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
 
 https://soykablog.wordpress.com/2012/10/20/create-a-file-name-that-contains-current-date-time-computer-and-user-names-in-powershell/
 
@@ -100,7 +107,7 @@ CMD in PowerShell:
 https://stackoverflow.com/questions/24940243/running-cmd-command-in-powershell
 
 
-Internet Explorer 11 @ Windows 10 x64 User Agent string:
+Internet Explorer 11 Windows 10 x64 User Agent string:
 
 Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 
@@ -115,6 +122,6 @@ https://ss64.com/nt/goto.html
 
 Logging Login/Logoff/Execution 
 
-**echo %username% %computername% %date% %time% >> \\file.txt**
+**echo %username% %computername% %date% %time% >> \\...\file.txt**
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
