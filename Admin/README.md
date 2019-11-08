@@ -12,13 +12,20 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.manageme
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/new-psdrive?view=powershell-6
 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-uptime?view=powershell-6
+
+  conditional statements:
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-6
+
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes?view=powershell-6
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/out-file?view=powershell-6
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
 
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-uptime?view=powershell-6
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
 
@@ -28,15 +35,21 @@ https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
 
 https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-powershell/
 
-String manipulation in PowerShell:
+String manipulation, methods, concatenation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
 
 https://4sysops.com/archives/strings-in-powershell-replace-compare-concatenate-split-substring/
 
-If{}ElseIf{}Else{} in PowerShell
+https://stackoverflow.com/questions/15113413/how-do-i-concatenate-strings-and-variables-in-powershell
+
+Conditional statements If{}ElseIf{}Else{} in PowerShell
 
 https://ss64.com/ps/if.html
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-6
+
+https://4sysops.com/archives/if-else-switch-conditional-statements-in-powershell/
 
 https://social.technet.microsoft.com/Forums/windowsserver/en-US/e4c33be1-31c5-49b9-b2f3-8f740f6350ac/powershell-ifelse-statement-wiith-hostname-matching-in-ad?forum=winserverpowershell
 
@@ -49,6 +62,22 @@ Try/Catch/Finally  in PowerShell:
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
 
 https://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell
+
+Loops/iterations in PowerShell:
+
+https://www.business.com/articles/powershell-for-loop/
+
+https://ridicurious.com/2019/10/10/powershell-loops-and-iterations/
+
+Clesses/OOP in PowerShell:
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes?view=powershell-6
+
+https://xainey.github.io/2016/powershell-classes-and-concepts/
+
+https://powertoe.wordpress.com/2014/04/26/you-know-powershell-is-an-object-oriented-language-right/
+
+https://archive.codeplex.com/?p=psclass
 
 Hostname in PowerShell:
 
@@ -79,8 +108,10 @@ Logging in PowerShell:
 **("$($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")") >> D:\test.txt**
 
 .\..
-
-[string]((get-date) - (gcim Win32_OperatingSystem).LastBootUpTime)
+(get-date)
+(gcim Win32_OperatingSystem).LastBootUpTime)
+a - b
+[string]()
 
 https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
 
