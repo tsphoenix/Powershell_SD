@@ -84,7 +84,7 @@ https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-adcompute
 
 https://sid-500.com/2018/09/09/powershell-showing-the-uptime-of-all-windows-servers/
 
-...
+...to be continued
 
 Registry:
 
@@ -99,8 +99,6 @@ Azure SSPR:
 https://docs.microsoft.com/pl-pl/azure/active-directory/authentication/howto-sspr-windows
 
 https://www.itninja.com/blog/view/how-to-make-changes-to-the-default-users-hive-as-a-post-taks
-
-
 
 CMD in PowerShell:
 
@@ -126,15 +124,15 @@ Logging Login/Logoff/Execution
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
 
-Append data permission:
-
-https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-in-windows-for-logging-purposes
-
-https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bdc92490/create-folder-append-dat
-
 NTFS vs Share Permissions refresher:
 
 https://www.techrepublic.com/article/learn-the-basic-differences-between-share-and-ntfs-permissions/
 
 https://blog.netwrix.com/2018/05/03/differences-between-share-and-ntfs-permissions/
+
+Append data permission:
+
+https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-in-windows-for-logging-purposes
+
+https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bdc92490/create-folder-append-dat
 
