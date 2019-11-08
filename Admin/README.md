@@ -162,9 +162,13 @@ https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-po
 
 https://devblogs.microsoft.com/scripting/use-powershell-to-search-ad-ds-and-produce-an-uptime-report/
 
+https://devblogs.microsoft.com/powershell/get-systemuptime-and-working-with-the-wmi-date-format/
+
 https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-adcomputer?view=winserver2012-ps
 
 https://sid-500.com/2018/09/09/powershell-showing-the-uptime-of-all-windows-servers/
+
+https://community.spiceworks.com/topic/2099129-lastbootuptime-convert-to-date
 
 ...to be continued
 
