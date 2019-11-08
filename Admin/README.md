@@ -43,6 +43,14 @@ https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-po
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scopes?view=powershell-6
 
+Execution policy:
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6
+
+https://social.technet.microsoft.com/Forums/windows/en-US/377c4a7d-f2f0-4b8b-8360-784a2c54258e/powershell-executionpol
+
+https://blog.netspi.com/15-ways-to-bypass-the-powershell-execution-policy/
+
 Operators in PowerShell:
 
 https://ss64.com/ps/syntax-operators.html
