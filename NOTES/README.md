@@ -1,11 +1,5 @@
 Documentation:
 
-Test-Path
-
-Test-RegistryValue -Path
-
-Set-ItemProperty
-
 New-Item
 
 New-ItemProperty 
