@@ -34,7 +34,7 @@ https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-stri
 
 https://4sysops.com/archives/strings-in-powershell-replace-compare-concatenate-split-substring/
 
-if/else/
+If{}ElseIf{}Else{} in PowerShell
 
 https://ss64.com/ps/if.html
 
@@ -44,16 +44,13 @@ https://stackoverflow.com/questions/29340484/powershell-nested-if-statements
 
 https://www.tutorialspoint.com/powershell/nested_if_statements_in_powershell.htm
 
-try/catch/finally in powershell:
-
+Try/Catch/Finally  in PowerShell:
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
 
 https://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell
 
-
-
-hostname in PowerShell:
+Hostname in PowerShell:
 
 https://www.reddit.com/r/PowerShell/comments/817ajm/if_hostname_contains_run_command/
 
