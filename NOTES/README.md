@@ -24,21 +24,34 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-6
 
-string manipulation in PowerShell:
+https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
+
+https://devblogs.microsoft.com/scripting/update-or-add-registry-key-value-with-powershell/
+
+String manipulation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
 
-if/else/try/catch in powershell:
+https://4sysops.com/archives/strings-in-powershell-replace-compare-concatenate-split-substring/
 
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
+if/else/
 
-https://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell
+https://ss64.com/ps/if.html
 
 https://social.technet.microsoft.com/Forums/windowsserver/en-US/e4c33be1-31c5-49b9-b2f3-8f740f6350ac/powershell-ifelse-statement-wiith-hostname-matching-in-ad?forum=winserverpowershell
 
 https://stackoverflow.com/questions/29340484/powershell-nested-if-statements
 
 https://www.tutorialspoint.com/powershell/nested_if_statements_in_powershell.htm
+
+try/catch/finally in powershell:
+
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-6
+
+https://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-finally-and-error-handling-in-powershell
+
+
 
 hostname in PowerShell:
 
