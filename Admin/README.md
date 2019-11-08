@@ -35,13 +35,30 @@ https://devblogs.microsoft.com/scripting/powershell-and-user-access-logging/
 
 https://devblogs.microsoft.com/scripting/powertip-get-the-last-boot-time-with-powershell/
 
+
+Operators in PowerShell:
+
+https://ss64.com/ps/syntax-operators.html
+
+https://ss64.com/ps/syntax-compare.html
+
 String manipulation, methods, concatenation in PowerShell:
+
+https://ss64.com/ps/syntax-concat.html
 
 https://devblogs.microsoft.com/scripting/understanding-powershell-and-basic-string-formatting/
 
 https://4sysops.com/archives/strings-in-powershell-replace-compare-concatenate-split-substring/
 
 https://stackoverflow.com/questions/15113413/how-do-i-concatenate-strings-and-variables-in-powershell
+
+https://ss64.com/ps/split.html
+
+https://ss64.com/ps/substring.html
+
+Value and Variable Conversion in PowerShell:
+
+https://stackoverflow.com/questions/27484682/safely-converting-string-to-bool-in-powershell
 
 Conditional statements If{}ElseIf{}Else{} in PowerShell
 
@@ -65,11 +82,15 @@ https://www.vexasoft.com/blogs/powershell/7255220-powershell-tutorial-try-catch-
 
 Loops/iterations in PowerShell:
 
+https://ss64.com/ps/for.html
+
 https://www.business.com/articles/powershell-for-loop/
 
 https://ridicurious.com/2019/10/10/powershell-loops-and-iterations/
 
-Clesses/OOP in PowerShell:
+Clesses/Objects/OOP in PowerShell:
+
+https://ss64.com/ps/syntax-objects.html
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes?view=powershell-6
 
