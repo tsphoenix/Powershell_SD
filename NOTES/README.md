@@ -84,6 +84,14 @@ https://soykablog.wordpress.com/2012/10/20/create-a-file-name-that-contains-curr
 
 https://docs.microsoft.com/en-us/powershell/module/ipamserver/get-ipamipaddressauditevent?view=win10-ps
 
+Wipe old user profiles with powershell:
+
+https://www.nextofwindows.com/delete-user-profiles-on-a-remote-computer-in-powershell
+
+https://www.reddit.com/r/PowerShell/comments/9enay3/delete_user_profiles_remotely/
+
+https://www.reddit.com/r/PowerShell/comments/b8r5iw/script_to_delete_user_profiles_remotely_against_a/
+
 Uptime lunacy check in PowerShell:
 
 https://devblogs.microsoft.com/scripting/use-powershell-to-search-ad-ds-and-produce-an-uptime-report/
@@ -144,3 +152,8 @@ https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-
 
 https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bdc92490/create-folder-append-dat
 
+TODO:
+
+increase code quality
+
+extract variables and functions, use methods more offten
