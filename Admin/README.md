@@ -170,6 +170,8 @@ https://sid-500.com/2018/09/09/powershell-showing-the-uptime-of-all-windows-serv
 
 https://community.spiceworks.com/topic/2099129-lastbootuptime-convert-to-date
 
+https://theitbros.com/check-windows-uptime/
+
 ...to be continued
 
 Registry:
