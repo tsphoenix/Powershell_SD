@@ -62,7 +62,7 @@ https://community.spiceworks.com/topic/1404248-get-all-ad-computers-starting-wit
 
 https://social.technet.microsoft.com/Forums/Lync/en-US/aee6c8fb-1e6c-43e2-97fe-4ec2e27d207f/powershell-script-to-get-the-last-2-characther-of-server-name-and-pass-it-to-a-variable?forum=ITCG
 
-Registry in PowerShell:
+Registry manipulation in PowerShell:
 
 https://devblogs.microsoft.com/scripting/update-or-add-registry-key-value-with-powershell/
 
@@ -72,7 +72,7 @@ https://stackoverflow.com/questions/26719206/how-can-i-create-a-registry-value-a
 
 https://www.jonathanmedd.net/2014/02/testing-for-the-presence-of-a-registry-key-and-value.html
 
-Logging in powershell:
+Logging in PowerShell:
 
 **Write-Host $($env:username) $($env:computername) $(get-date -f "yyyy-MM-dd HH-mm-ss")**
 
@@ -86,7 +86,7 @@ https://soykablog.wordpress.com/2012/10/20/create-a-file-name-that-contains-curr
 
 https://docs.microsoft.com/en-us/powershell/module/ipamserver/get-ipamipaddressauditevent?view=win10-ps
 
-Uptime lunacy check in powershell:
+Uptime lunacy check in PowerShell:
 
 https://devblogs.microsoft.com/scripting/use-powershell-to-search-ad-ds-and-produce-an-uptime-report/
 
@@ -140,7 +140,7 @@ https://www.techrepublic.com/article/learn-the-basic-differences-between-share-a
 
 https://blog.netwrix.com/2018/05/03/differences-between-share-and-ntfs-permissions/
 
-Append data permission:
+Append data NTFS permission:
 
 https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-in-windows-for-logging-purposes
 
