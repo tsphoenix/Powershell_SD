@@ -216,6 +216,18 @@ systeminfo | find "System Boot Time"
 
 https://blogs.msmvps.com/kwsupport/2005/02/24/lazy-mans-way-to-track-user-logonlogoff/
 
+DevOps
+
+https://www.datamation.com/cloud-computing/aws-vs-azure-vs-google-cloud-comparison.html
+
+https://www.varonis.com/blog/aws-vs-azure-vs-google/
+
+Windows Memory:
+
+http://blogs.microsoft.co.il/sasha/2016/01/05/windows-process-memory-usage-demystified/
+
+https://dzone.com/articles/windows-process-memory-usage-demystified
+
 NTFS vs Share Permissions refresher:
 
 https://www.techrepublic.com/article/learn-the-basic-differences-between-share-and-ntfs-permissions/
@@ -230,6 +242,6 @@ https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bd
 
 TODO:
 
-increase code quality
+Code quality increase
 
-extract variables and functions, use methods more offten
+Extract variables, functions, use methods more offten
