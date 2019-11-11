@@ -263,7 +263,7 @@ https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-
 
 https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bdc92490/create-folder-append-dat
 
-Windows Kernel Internals (@2005 - XP Professional and Server 2003)
+University of Tokyo Windows Kernel Internals (@2005 - XP Professional and Server 2003)
 
 http://people.cs.vt.edu/~gback/WindowsInternals/www.i.u-tokyo.ac.jp/edu/training/ss/lecture/new-documents/Lectures/index.html
 
