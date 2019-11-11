@@ -6,6 +6,12 @@ https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-che
 
 https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-cheat-sheet.pdf
 
+Commandlets:
+
+https://searchitoperations.techtarget.com/tip/On-Windows-PowerShell-vs-Bash-comparison-gets-interesting
+
+https://cdn.ttgtmedia.com/rms/onlineImages/it_ops-ps_vs_bash_desktop.jpg
+
 Documentation:
 
 New-Item
@@ -276,6 +282,10 @@ http://www.reverse-engineering.info/SystemInformation/WindowsKernelOverview.pdf
 Access Tokens
 
 https://docs.microsoft.com/en-us/windows/win32/secauthz/access-tokens
+
+Processes and Threads
+
+https://docs.microsoft.com/en-us/windows/win32/procthread/processes-and-threads
 
 Processes, Threads, and Jobs in the Windows Operating System
 
