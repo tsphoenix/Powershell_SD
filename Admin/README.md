@@ -4,7 +4,7 @@ https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-ch
 
 https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-cheat-sheet2.pdf
 
-https://ramblingcookiemonster.files.wordpress.com/2012/09/powershell-cheat
+https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-cheat-sheet.pdf
 
 Documentation:
 
@@ -256,6 +256,30 @@ Append data NTFS permission:
 https://serverfault.com/questions/476942/how-to-give-only-append-access-to-user-in-windows-for-logging-purposes
 
 https://social.technet.microsoft.com/Forums/en-US/9fcde486-f60b-4f66-92bf-9d18bdc92490/create-folder-append-dat
+
+Windows Kernel Internals (@2005 - XP Professional and Server 2003)
+
+http://people.cs.vt.edu/~gback/WindowsInternals/www.i.u-tokyo.ac.jp/edu/training/ss/lecture/new-documents/Lectures/index.html
+
+https://www.i.u-tokyo.ac.jp/edu/training/ss/lecture/new-documents/Lectures/13-Processes/Processes.pdf
+
+https://www.i.u-tokyo.ac.jp/edu/training/ss/lecture/new-documents/Lectures/16-UserModeHeap/UserModeHeapManager.ppt
+
+http://www.reverse-engineering.info/SystemInformation/Processes.pdf
+
+http://index-of.es/Windows/winKernArchi/IOArchitecture.pdf
+
+http://index-of.es/Windows/winKernArchi/WindowsKernelOverview.pdf
+
+http://www.reverse-engineering.info/SystemInformation/WindowsKernelOverview.pdf
+
+Access Tokens
+
+https://docs.microsoft.com/en-us/windows/win32/secauthz/access-tokens
+
+Processes, Threads, and Jobs in the Windows Operating System
+
+https://www.microsoftpressstore.com/articles/article.aspx?p=2233328
 
 TODO:
 
