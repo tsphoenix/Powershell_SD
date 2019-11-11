@@ -299,6 +299,14 @@ Processes, Threads, and Jobs in the Windows Operating System
 
 https://www.microsoftpressstore.com/articles/article.aspx?p=2233328
 
+xperf:
+
+https://blogs.msdn.microsoft.com/ntdebugging/
+
+https://randomascii.wordpress.com/2011/08/18/xperf-basics-recording-a-trace/
+
+https://blogs.msdn.microsoft.com/ntdebugging/2008/04/03/windows-performance-
+
 TODO:
 
 Code quality increase
