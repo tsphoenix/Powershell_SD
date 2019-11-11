@@ -6,11 +6,19 @@ https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-basic-che
 
 https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-cheat-sheet.pdf
 
-Commandlets:
+Cmdlets:
+
+https://en.wikipedia.org/wiki/PowerShell#Comparison_of_cmdlets_with_similar_commands
 
 https://searchitoperations.techtarget.com/tip/On-Windows-PowerShell-vs-Bash-comparison-gets-interesting
 
 https://cdn.ttgtmedia.com/rms/onlineImages/it_ops-ps_vs_bash_desktop.jpg
+
+Aliases:
+
+https://docs.microsoft.com/en-us/powershell/scripting/learn/using-familiar-command-names?view=powershell-6
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-6
 
 Documentation:
 
