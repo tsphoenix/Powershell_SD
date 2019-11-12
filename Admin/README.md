@@ -8,6 +8,8 @@ https://ramblingcookiemonster.github.io/images/Cheat-Sheets/powershell-cheat-she
 
 Cmdlets:
 
+https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/cmdlet-overview?view=powershell-6
+
 https://en.wikipedia.org/wiki/PowerShell#Comparison_of_cmdlets_with_similar_commands
 
 https://searchitoperations.techtarget.com/tip/On-Windows-PowerShell-vs-Bash-comparison-gets-interesting
