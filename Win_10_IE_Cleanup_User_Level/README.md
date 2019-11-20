@@ -22,7 +22,7 @@ https://community.spiceworks.com/topic/2113533-powershell-script-to-delete-hidde
 
 Alternative approach with RunDll32.exe:
 
-**Use of RunDll32.exe in Windows 10**:
+**RunDll32.exe commands in Windows 10**:
 
 https://www.tenforums.com/tutorials/77458-rundll32-commands-list-windows-10-a.html
 
