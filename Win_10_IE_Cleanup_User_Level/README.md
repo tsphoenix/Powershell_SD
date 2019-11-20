@@ -1,8 +1,5 @@
-**WIP, DO NOT USE**
+**Finished*
 
-bat launcher finished
-
-**ps1 broken code!**
 
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-6
 
@@ -35,11 +32,16 @@ https://mywindowshub.com/a-complete-list-of-rundll32-commands-for-windows-10/
 
 https://superuser.com/questions/450014/clearmytracksbyprocess-all-options
 
+https://stackoverflow.com/questions/33447236/how-can-i-delete-internet-explorer-cookies-using-bat-script
+
 https://gallery.technet.microsoft.com/scriptcenter/Clear-Internet-Explorer-5ee32ff6
 
 https://gallery.technet.microsoft.com/scriptcenter/Reset-Internet-Explorer-20f838e7
 
 https://vworld.nl/?p=3881
+
+Add values 2^n so it will be one line code
+
 ```
 1    = Browsing History
 2    = Cookies
