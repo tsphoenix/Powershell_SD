@@ -3,10 +3,5 @@
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
 
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 1
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 16
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
-RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 128
+# 4 2 1 8 16 32 128 = 191, better to put it in the array first and then sum use the sum of an array of numbers config like
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 191
