@@ -42,7 +42,7 @@ https://gallery.technet.microsoft.com/scriptcenter/Reset-Internet-Explorer-20f83
 
 https://vworld.nl/?p=3881
 
-Add all 2^n values to make it one-liner
+**Add all 2^n values to make it one-liner**
 
 ```
 1    = Browsing History
