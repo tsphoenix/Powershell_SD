@@ -2,11 +2,13 @@
 
 Stop-Process -Name "iexplore" 
 Stop-Process -Name "iexplore" -Force
-<#
-$IeCookies = "$env:USERPROFILE\AppData\Local\Microsoft\Windows\INetCookies\"
-$IeCache = "$env:USERPROFILE\AppData\Local\Microsoft\Windows\INetCache\"
-$Temps = (get-item env:"TEMP").Value
-$Paths = $IeCookies, $IeCache, $Temp
 
-Get-ChildItem -LiteralPath $Paths -Recurse -Force | ForEach-Object { Remove-Item -Recurse -Force -LiteralPath $_.FullName }
-#>
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 1
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 16
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 128
