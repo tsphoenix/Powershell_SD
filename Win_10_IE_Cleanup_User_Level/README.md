@@ -40,3 +40,41 @@ https://gallery.technet.microsoft.com/scriptcenter/Clear-Internet-Explorer-5ee32
 https://gallery.technet.microsoft.com/scriptcenter/Reset-Internet-Explorer-20f838e7
 
 https://vworld.nl/?p=3881
+```
+1    = Browsing History
+2    = Cookies
+4    = Temporary Internet Files
+8    = Offline favorites and download history
+16   = Form Data
+32   = Passwords
+64   = Phishing Filter Data
+128  = Web page Recovery Data
+256  = Do not Show GUI when running the cache clear
+512  = Do not use Multi-threading for deletion
+1024 = Valid only when browser is in private browsing mode
+2048 = Tracking Data
+4096 = Data stored by add-ons
+8192 = Preserves Cached data for Favorite websites
+```
+```
+Delete Temporary Internet Files:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
+
+Delete Cookies:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 2
+
+Delete History:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 1
+
+Delete Form Data:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 16
+
+Delete Passwords:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 32
+
+Delete All:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 255
+
+Delete All + files and settings stored by Add-ons:
+RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 4351
+```
