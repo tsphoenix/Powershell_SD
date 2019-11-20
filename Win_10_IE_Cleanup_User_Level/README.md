@@ -30,7 +30,14 @@ https://www.tenforums.com/tutorials/77458-rundll32-commands-list-windows-10-a.ht
 
 https://mywindowshub.com/a-complete-list-of-rundll32-commands-for-windows-10/
 
+https://gist.github.com/40robber/58a962e8b9b3cb29e72338b569407093
+
+https://ss64.com/nt/rundll32.html
+
+
 **RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess** approach:
+
+https://ss64.com/nt/rundll32.html
 
 https://superuser.com/questions/450014/clearmytracksbyprocess-all-options
 
