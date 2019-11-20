@@ -24,6 +24,8 @@ Alternative approach with RunDll32.exe:
 
 **RunDll32.exe commands in Windows 10**:
 
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/rundll32
+
 https://www.tenforums.com/tutorials/77458-rundll32-commands-list-windows-10-a.html
 
 https://mywindowshub.com/a-complete-list-of-rundll32-commands-for-windows-10/
