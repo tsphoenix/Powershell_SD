@@ -32,3 +32,5 @@ https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.manageme
 https://www.risual.com/2011/06/13/enabledisable-a-service-via-powershell/
 
 https://www.tenforums.com/tutorials/4499-start-stop-disable-services-windows-10-a.html
+
+https://forums.ivanti.com/s/article/How-to-Stop-Start-all-LANDesk-Services-at-Once-now-with-PowerShell
