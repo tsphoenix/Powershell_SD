@@ -1,7 +1,11 @@
 "Windows Search" == WSearch == SearchIndexer.exe
 
 Get-Service
+
 Get-Service | Format-Table -Auto
+
+Get-Service | Sort-Object status | Format-Table -Auto
+
 
 Get-Service WSearch
 
